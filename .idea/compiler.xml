@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flower-comm" />
+        <module name="flower-manager-dao" />
+        <module name="flower-manager-dao (2)" />
+        <module name="flower-manager-interface" />
+        <module name="flower-manager-pojo" />
+        <module name="flower-manager-pojo (2)" />
+        <module name="flower-manager-service" />
+        <module name="flower-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flower-comm" target="1.7" />
+      <module name="flower-manager" target="1.7" />
+      <module name="flower-manager-dao" target="1.7" />
+      <module name="flower-manager-dao (1)" target="1.5" />
+      <module name="flower-manager-dao (2)" target="1.7" />
+      <module name="flower-manager-interface" target="1.7" />
+      <module name="flower-manager-pojo" target="1.7" />
+      <module name="flower-manager-pojo (1)" target="1.5" />
+      <module name="flower-manager-pojo (2)" target="1.7" />
+      <module name="flower-manager-service" target="1.7" />
+      <module name="flower-manager-web" target="1.7" />
+      <module name="flower-parent" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+  </component>
+</project>
